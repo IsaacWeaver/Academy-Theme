@@ -1,15 +1,15 @@
 {
-    "name": "Academy Theme",
-    "title": "Academy Theme",
+    "name": "academy-theme",
+    "title": "Code Academy Theme",
     "description": "Taken from code academy's editor theme loosely",
-    "homepage": "https://github.com/anthonyrom/true-ocean",
+    "homepage": "https://github.com/IsaacWeaver/Academy-Theme",
     "version": "1.0.0",
-    "author": "Jane Doe <janedoe@gmail.com>",
+    "author": "Isaac Weaver <janedoe@gmail.com>",
     "license": "MIT",
     "theme": {
         "file": "theme.less",
         "dark": true,
         "addModeClass": true
     },
-    "keywords": ["theme, codeacademy, ocean"]
+    "keywords": ["theme, code, academy, ocean"]
 }
