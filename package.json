@@ -1,9 +1,9 @@
 {
     "name": "academy-theme",
     "title": "Code Academy Theme",
-    "description": "Taken from code academy's editor theme loosely",
+    "description": "Taken from code academy's editor theme. Fairly accuracte replication. If you miss the old verion of this theme you can find it in the repository.",
     "homepage": "https://github.com/IsaacWeaver/Academy-Theme",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "author": "Isaac Weaver <janedoe@gmail.com>",
     "license": "MIT",
     "theme": {

@@ -1,23 +1,27 @@
 /* Define variables: Taken loosely from codeacademy's theme: used https://github.com/anthonyrom/true-ocean as a base for the theme :) */
 
 @base00: #354551;
-@base01: #495660;
-@base02: #1f2930;
-@base03: #8C968F;
+@base01: #354551;
+@highlight: #2D2D2D;
+@comments: #939598;
+@base03A: #939598;
 @base04: #a7adba;
 @base05: #c0c5ce;
-@base06: #dfe1e8;
-@base07: #eff1f5;
-@base08: #558AB3;
+@base06: #fff;
+@base07: #fff;
+@base08: #B3CCFF;
 @base09: #d08770;
-@base0A: #6ccadd;
-@base0B: #ff9472;
-@base0C: #B294BB;
-@base0D: #8fa1b3;
-@base0E: #6ccadd;
+@base0A: #B4D353;
+@base0B: #FFE083;
+@base0C: #83FFF5;
+@base0D: #fff;
+@base0E: #FF765B;
 @base0F: #ab7967;
+@base1A: #BBD7DD;
+@base1B: #1C232A;
 
 /* Code Styling */
+this
 
 .CodeMirror {
     // Gotta have that sweet sweet line spacing
@@ -35,11 +39,11 @@
 }
 .CodeMirror-linenumber {
     // Line numbers in the gutter
-    color: @base03;
+    color: @base03A;
 }
 .CodeMirror-selected {
     // Highlighed text
-    background-color: @base02;
+    background-color: @highlight;
 }
 .CodeMirror-cursor {
     // The cursor
@@ -48,13 +52,12 @@
 .CodeMirror-matchingbracket,
 .CodeMirror-matchingtag {
     // When you click a tag/bracket and the matching one is highlighted
-    background: @base02 !important;
-    color: @base06 !important;
-    border-bottom: 1px solid @base08 !important;
+    background: @base1B !important;
+    color: white !important;
 }
 .CodeMirror-foldgutter-open:after {
     // Those little arrows in the gutter
-    color: @base03;
+    color: @comments;
 }
 .CodeMirror-foldgutter-folded:after {
     // The arrows after you collapse code
@@ -71,7 +74,7 @@
     // The [...] marking collapsed code
     border-color: @base06;
     background-color: @base06;
-    color: @base02;
+    color: @highlight;
 }
 .CodeMirror-searching {
     // Ctrl + F results
@@ -97,7 +100,9 @@
 
 /* All 'dem swatches */
 
-.cm-atom,
+.cm-atom{
+    color: #ff516b;
+}
 .cm-string,
 .cm-string-2,
 .cm-hr,
@@ -124,7 +129,7 @@
     color: @base06;
 }
 .cm-comment {
-    color: @base03;
+    color: @comments;
 }
 .cm-error,
 .cm-minus {
@@ -150,7 +155,7 @@
 
 /* Active Line Highlight support */
 .CodeMirror-activeline-background {
-    background-color: @base02;
+    background-color: @highlight;
 }
 .CodeMirror-activeline .CodeMirror-linenumber {
     background-color: @base01;
