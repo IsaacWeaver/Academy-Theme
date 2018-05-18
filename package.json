@@ -3,8 +3,8 @@
     "title": "Code Academy Theme",
     "description": "Taken from code academy's editor theme. Fairly accuracte replication. If you miss the old verion of this theme you can find it in the repository.",
     "homepage": "https://github.com/IsaacWeaver/Academy-Theme",
-    "version": "2.0.1",
-    "author": "Isaac Weaver <janedoe@gmail.com>",
+    "version": "2.0.2",
+    "author": "Isaac Weaver <isaacweaver93@gmail.com>",
     "license": "MIT",
     "theme": {
         "file": "theme.less",
